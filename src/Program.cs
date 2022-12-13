@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -18,6 +19,11 @@ namespace ReversiC_Namespace.reversiC.src
             tekst.Location = new Point(100, 100);
 
             tekst.Text = Board.getGrootsteZwimpie();
+            Board b = new Board(6, 6);
+
+            b.getNumbers(); 
+
+
 
             Application.Run(scherm);
         }
