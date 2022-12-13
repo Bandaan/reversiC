@@ -30,10 +30,22 @@ namespace ReversiC_Namespace.reversiC.src
                 for (int j = 0; j < this.boardArray.GetLength(1); j++)
                 {
                     int s = this.boardArray[i, j];
-
-                    Debug.WriteLine(s);
                 }
             }
+        }
+
+        public int[] GetAvailableMoves()
+        {
+            int[] availableMoves = new int[10];
+
+            return availableMoves;
+        }
+
+        public bool MakeMove()
+        {
+
+            // Een zet maken;
+            return true;
         }
     }
 }

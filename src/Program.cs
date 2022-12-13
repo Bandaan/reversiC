@@ -24,6 +24,8 @@ namespace ReversiC_Namespace.reversiC.src
             b.getNumbers(); 
 
 
+            // waarom doet github het niet
+
 
             Application.Run(scherm);
         }
